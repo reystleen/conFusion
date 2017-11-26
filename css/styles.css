@@ -51,3 +51,21 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#modalLogin, #modalReserve {
+  /* .close {
+        color: $background-light;
+        &:hover{
+            color: floralwhite;      
+        }
+    }  */ }
+  #modalLogin .modal-header, #modalReserve .modal-header {
+    background-color: #512DA8; }
+    #modalLogin .modal-header button, #modalReserve .modal-header button {
+      color: floralwhite; }
+  #modalLogin .modal-body, #modalReserve .modal-body {
+    background-color: #D1C4E9; }
+  #modalLogin .modal-footer, #modalReserve .modal-footer {
+    background-color: #9575CD; }
+  #modalLogin h4.modal-title, #modalReserve h4.modal-title {
+    color: floralwhite; }
